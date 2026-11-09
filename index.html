@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aldi & Cindy | Wedding Invitation</title>
+  <meta name="description" content="Undangan Pernikahan Aldi Ridwan Achabani & Cindy Febria Purnama" />
+  <meta name="theme-color" content="#1f3552" />
+  <meta property="og:title" content="Aldi & Cindy | Wedding Invitation" />
+  <meta property="og:description" content="06 Desember 2026" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="loader" aria-label="Loading">
+    <div class="loader-card">
+      <div class="loader-monogram">A<span>&amp;</span>C</div>
+      <div class="loader-line"></div>
+      <p>Menghangatkan undangan…</p>
+    </div>
+  </div>
+
+  <div class="floating-ui">
+    <button id="musicButton" class="icon-button" aria-label="Musik">
+      <span class="music-wave">♪</span>
+    </button>
+  </div>
+
+  <header id="cover" class="screen">
+    <div class="cover-bg"></div>
+    <div class="overlay"></div>
+    <div class="ornament ornament-tl"></div>
+    <div class="ornament ornament-br"></div>
+
+    <div class="cover-content">
+      <p class="eyebrow">The Wedding Of</p>
+      <h1 class="main-title">
+        <span class="name-top">Aldi</span>
+        <span class="amp">&amp;</span>
+        <span class="name-bottom">Cindy</span>
+      </h1>
+      <p class="date-line">Minggu, 06 Desember 2026</p>
+
+      <div class="guest-card">
+        <small>Kepada Yth.</small>
+        <h2 id="guestName">Bapak / Ibu / Saudara/i</h2>
+        <p>Tanpa mengurangi rasa hormat, kami mengundang Anda untuk hadir di hari bahagia kami.</p>
+      </div>
+
+      <button id="openInvitation" class="primary-btn">Buka Undangan</button>
+    </div>
+  </header>
+
+  <main id="mainContent" class="hidden">
+    <section id="hero" class="section hero-section">
+      <div class="hero-slider">
+        <div class="hero-slide active"><img src="assets/images/hero-1.jpg" alt="Aldi dan Cindy"></div>
+        <div class="hero-slide"><img src="assets/images/hero-2.jpg" alt="Aldi dan Cindy"></div>
+        <div class="hero-slide"><img src="assets/images/hero-3.jpg" alt="Aldi dan Cindy"></div>
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-text reveal">
+        <p class="eyebrow">Aldi &amp; Cindy</p>
+        <h2>06 Desember 2026</h2>
+        <div class="divider">❖</div>
+        <blockquote>
+          “Dan di antara tanda-tanda kebesaran-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri agar kamu cenderung dan merasa tenteram kepadanya.”
+        </blockquote>
+        <small>QS. Ar-Rum : 21</small>
+      </div>
+      <div class="scroll-hint">Scroll</div>
+    </section>
+
+    <section id="couple" class="section section-alt">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Bride &amp; Groom</p>
+        <h2>Dengan memohon ridha Allah SWT</h2>
+        <div class="divider">❖</div>
+      </div>
+
+      <div class="couple-wrap">
+        <article class="person reveal">
+          <div class="portrait-frame">
+            <img src="assets/images/hero-5.jpg" alt="Aldi Ridwan Achabani">
+          </div>
+          <div class="person-copy">
+            <p class="role">The Groom</p>
+            <h3>Aldi Ridwan Achabani</h3>
+            <p class="child">Putra Ketiga dari</p>
+            <p class="parents">Bapak Nur Wakhid &amp; Ibu Zaitun Fatimah</p>
+          </div>
+        </article>
+
+        <div class="heart-separator reveal">❤</div>
+
+        <article class="person reverse reveal">
+          <div class="portrait-frame">
+            <img src="assets/images/hero-6.jpg" alt="Cindy Febria Purnama">
+          </div>
+          <div class="person-copy">
+            <p class="role">The Bride</p>
+            <h3>Cindy Febria Purnama</h3>
+            <p class="child">Putri Pertama dari</p>
+            <p class="parents">Bapak Purnomo &amp; Ibu Chayun Salisun Nisak</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="verse" class="section">
+      <div class="verse-card reveal">
+        <p class="eyebrow">QS. Ar-Rum : 21</p>
+        <h2>وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُمْ مِنْ أَنْفُسِكُمْ أَزْوَاجًا</h2>
+        <p>“Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang…”</p>
+      </div>
+    </section>
+
+    <section id="countdown" class="section section-alt">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Save The Date</p>
+        <h2>06 Desember 2026</h2>
+      </div>
+
+      <div class="countdown-grid reveal" aria-live="polite">
+        <div class="count-card"><span id="days">000</span><small>Hari</small></div>
+        <div class="count-card"><span id="hours">00</span><small>Jam</small></div>
+        <div class="count-card"><span id="minutes">00</span><small>Menit</small></div>
+        <div class="count-card"><span id="seconds">00</span><small>Detik</small></div>
+      </div>
+    </section>
+
+    <section id="story" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Our Journey</p>
+        <h2>Perjalanan Kami</h2>
+      </div>
+
+      <div class="story-grid">
+        <article class="story-card reveal">
+          <span>Awal Pertemuan</span>
+          <h3>Masjid Menjadi Saksi Pertama</h3>
+          <p>Berawal dari sebuah acara keakraban di masjid, Allah mempertemukan kami dalam suasana yang sederhana namun penuh makna. Dari perkenalan singkat itu tumbuh komunikasi, saling mengenal, hingga perlahan menjadi perjalanan yang berarti.</p>
+        </article>
+
+        <article class="story-card reveal">
+          <span>30 Agustus 2026</span>
+          <h3>Lamaran</h3>
+          <p>Setelah melalui berbagai cerita, doa, dan keyakinan, kami memantapkan hati untuk melangkah ke jenjang yang lebih serius. Pada 30 Agustus 2026, kedua keluarga dipertemukan dalam acara lamaran sebagai awal menuju ibadah terpanjang kami.</p>
+        </article>
+
+        <article class="story-card reveal">
+          <span>06 Desember 2026</span>
+          <h3>Hari Bahagia</h3>
+          <p>InsyaAllah, pada 06 Desember 2026, kami akan mengikat janji suci pernikahan. Semoga Allah SWT senantiasa melimpahkan keberkahan, cinta, dan kasih sayang dalam rumah tangga yang kami bangun.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="gallery" class="section section-alt">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Captured Moments</p>
+        <h2>Gallery</h2>
+      </div>
+
+      <div class="gallery-grid reveal" id="galleryGrid">
+        <button class="gallery-item large" data-index="0"><img src="assets/images/hero-1.jpg" alt="Gallery 1"></button>
+        <button class="gallery-item" data-index="1"><img src="assets/images/hero-2.jpg" alt="Gallery 2"></button>
+        <button class="gallery-item" data-index="2"><img src="assets/images/hero-3.jpg" alt="Gallery 3"></button>
+        <button class="gallery-item" data-index="3"><img src="assets/images/hero-4.jpg" alt="Gallery 4"></button>
+        <button class="gallery-item wide" data-index="4"><img src="assets/images/hero-5.jpg" alt="Gallery 5"></button>
+        <button class="gallery-item" data-index="5"><img src="assets/images/hero-6.jpg" alt="Gallery 6"></button>
+      </div>
+    </section>
+
+    <section id="event" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Wedding Event</p>
+        <h2>Save Our Date</h2>
+      </div>
+
+      <div class="event-grid">
+        <article class="event-card reveal">
+          <p class="event-title">Akad Nikah</p>
+          <h3>06</h3>
+          <span>Desember 2026</span>
+          <div class="event-meta">Minggu • 09.00 WIB</div>
+        </article>
+
+        <article class="event-card reveal">
+          <p class="event-title">Resepsi</p>
+          <h3>06</h3>
+          <span>Desember 2026</span>
+          <div class="event-meta">Minggu • 10.00 WIB</div>
+        </article>
+      </div>
+
+      <div class="location-card reveal">
+        <p class="eyebrow">Location</p>
+        <h3>Bebek Goreng H. Makrus</h3>
+        <p>RT 02 / RW 02, Jarakan, Sidoharjo, Kec. Tanjunganom, Kabupaten Nganjuk, Jawa Timur 64482</p>
+        <a class="secondary-btn" href="https://maps.app.goo.gl/QM5pQ4fwTTvsQVhXA?g_st=ac" target="_blank" rel="noreferrer">Buka Google Maps</a>
+      </div>
+    </section>
+
+    <section id="gift" class="section section-alt">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Wedding Gift</p>
+        <h2>Tanda Kasih</h2>
+      </div>
+
+      <p class="gift-text reveal">Doa restu Bapak/Ibu/Saudara/i merupakan hadiah yang sangat berarti bagi kami. Apabila berkenan memberikan tanda kasih, dapat melalui rekening berikut.</p>
+
+      <div class="gift-card reveal">
+        <p class="bank-name">Bank BCA</p>
+        <h3 id="rekening">1420738273</h3>
+        <p>a.n. Cindy Febria Purnama</p>
+        <button id="copyRekening" class="secondary-btn">Salin Nomor Rekening</button>
+      </div>
+
+      <div class="gift-address reveal">
+        <h4>Alamat Pengiriman Hadiah</h4>
+        <p>Puri Tjaraka Warujayeng Blok B14<br>Lingkungan Pengkol<br>Warujayeng<br>Tanjunganom, Nganjuk</p>
+      </div>
+    </section>
+
+    <section id="rsvp" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">RSVP</p>
+        <h2>Konfirmasi Kehadiran</h2>
+      </div>
+
+      <form class="rsvp-form reveal" id="rsvpForm">
+        <input type="text" name="name" placeholder="Nama" required>
+        <select name="attendance" required>
+          <option value="">Pilih Kehadiran</option>
+          <option value="Hadir">Hadir</option>
+          <option value="Tidak Hadir">Tidak Hadir</option>
+        </select>
+        <input type="number" name="guestCount" placeholder="Jumlah tamu" min="1" max="10" value="1" required>
+        <textarea name="message" placeholder="Ucapan &amp; Doa"></textarea>
+        <button type="submit" class="primary-btn">Kirim Ucapan</button>
+      </form>
+
+      <div class="wish-list reveal" id="wishList"></div>
+    </section>
+
+    <footer id="footer" class="section footer">
+      <div class="footer-monogram">A<span>&amp;</span>C</div>
+      <h3>Terima Kasih</h3>
+      <p>Matur nuwun atas doa dan restu panjenengan.</p>
+      <small>© 2026 Aldi &amp; Cindy</small>
+    </footer>
+  </main>
+
+  <nav class="bottom-nav" aria-label="Navigasi">
+    <a href="#cover" class="nav-link active" data-target="#cover">Home</a>
+    <a href="#couple" class="nav-link" data-target="#couple">Couple</a>
+    <a href="#gallery" class="nav-link" data-target="#gallery">Gallery</a>
+    <a href="#event" class="nav-link" data-target="#event">Event</a>
+    <a href="#gift" class="nav-link" data-target="#gift">Gift</a>
+  </nav>
+
+  <div id="galleryModal" class="modal" aria-hidden="true">
+    <button class="modal-close" aria-label="Tutup">×</button>
+    <button class="modal-prev" aria-label="Sebelumnya">‹</button>
+    <img id="modalImage" alt="Galeri">
+    <button class="modal-next" aria-label="Berikutnya">›</button>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
